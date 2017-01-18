@@ -8,4 +8,4 @@ ProOnly: True
 Author: Guifre Ruiz, PortSwigger Web Security
 ShortDescription: Scans for the HTTPoxy vulnerability.
 EntryPoint: build/libs/httpoxy-scanner-all.jar
-BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
+BuildCommand: gradle fatJar
