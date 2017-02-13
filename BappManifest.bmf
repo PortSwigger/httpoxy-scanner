@@ -1,6 +1,7 @@
 Uuid: 9c9877825cbd428bab27a25d0ea17178
 ExtensionType: 1
 Name: HTTPoxy Scanner
+RepoName: httpoxy-scanner
 ScreenVersion: 1.0
 SerialVersion: 1
 MinPlatformVersion: 0
