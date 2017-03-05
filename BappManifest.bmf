@@ -1,12 +1,12 @@
 Uuid: 9c9877825cbd428bab27a25d0ea17178
 ExtensionType: 1
 Name: HTTPoxy Scanner
-RepoName: httpoxy-scanner
+RepoName: example-collaborator-interactions
 ScreenVersion: 1.0
 SerialVersion: 1
 MinPlatformVersion: 0
 ProOnly: True
 Author: Guifre Ruiz, PortSwigger Web Security
 ShortDescription: Scans for the HTTPoxy vulnerability.
-EntryPoint: build/libs/httpoxy-scanner-all.jar
-BuildCommand: gradle fatJar
+EntryPoint: java/build/libs/httpoxy-scanner-all.jar
+BuildCommand: cd java && gradle fatJar
