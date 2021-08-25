@@ -3,10 +3,11 @@ ExtensionType: 1
 Name: HTTPoxy Scanner
 RepoName: httpoxy-scanner
 ScreenVersion: 1.0
-SerialVersion: 1
+SerialVersion: 2
 MinPlatformVersion: 0
 ProOnly: True
 Author: Guifre Ruiz, PortSwigger Web Security
 ShortDescription: Scans for the HTTPoxy vulnerability.
 EntryPoint: java/build/libs/httpoxy-scanner-all.jar
 BuildCommand: cd java && gradle fatJar
+SupportedProducts: Pro, Enterprise
